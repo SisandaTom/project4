@@ -1,6 +1,7 @@
 #import tabulate
 from tabulate import tabulate
 class Shoes:
+   #function to initialise the attributes, cointry, code, product, self and quantity
    def __init__(self, country, code, product, cost, quantity):
        self.country = country
        self.code = code
@@ -26,12 +27,13 @@ class Shoes:
    def __str__(self):
        return f"{self.country}, {self.code}, {self.product}, {self.cost}, {self.quantity}"
 
+#opening and reading from file inventory.txt
 inventory_read = open("inventory.txt", "r")
 inventory_write = open("inventory.txt", "a+")
 
+#empty list to store the shoes objects
 shoes_list = []
 shoes_obj = []
-#empty list to store the shoes objects
 def read_shoes_data(): #function to read the shoes from the file inventory.txt
    #reading data from the file
    file = None
