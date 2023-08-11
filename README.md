@@ -47,4 +47,5 @@ for all the shoes.
 ▪ highest_qty - Write code to determine the product with the
 highest quantity and print this shoe as being for sale.
 o Now in your main create a menu that executes each function
+##Update the files
 above. This menu should be inside the while loop. Be creative!
